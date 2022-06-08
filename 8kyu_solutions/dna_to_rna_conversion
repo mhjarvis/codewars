@@ -1,0 +1,20 @@
+function DNAtoRNA(dna) {
+  
+  let arr = [];
+  
+  if(dna.length === 0) {
+    return '';
+  }
+  
+  dna = dna.split('');
+  
+  for(let i = 0; i < dna.length; i++) {
+    if(dna[i] == "T") {
+      arr.push("U");
+      continue;
+    }
+    arr.push(dna[i]);
+  }
+  arr = arr.join("");
+  return arr;
+}
