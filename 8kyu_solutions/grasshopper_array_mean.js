@@ -4,6 +4,8 @@ var findAverage = function (nums) {
     return total / nums.length;
   }
 
-  // other solution
+  // better solution
 
   const findAverage = nums => nums.reduce((a, b) => a + b) / nums.length;
+
+  
