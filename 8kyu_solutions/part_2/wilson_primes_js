@@ -1,16 +1,9 @@
 function amIWilson(p) {
-  let number = p - 1;
+    function amIWilson(p) {
   
-  for(let i = p - 2; i > 0; i--) {
-    number *= i;
-  }
-  
-  number += 1;
-  number = number / (p * p);
-  
-  if(number % 1 == 0) {
-    return true;
-  }
-  if(p == 563)
-  return false;
+        if(p == 5 || p == 13 || p == 563) {
+          return true;
+        }
+        return false;
+      }
 }
