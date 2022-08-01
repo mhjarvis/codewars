@@ -5,3 +5,9 @@ function solution(str, ending){
   }
   return false;
 };
+
+// alternative (shorter solution)
+
+function solution(str, ending){
+  return str.endsWith(ending);
+};
