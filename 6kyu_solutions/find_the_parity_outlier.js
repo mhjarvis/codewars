@@ -22,3 +22,15 @@ function findOutlier(integers){
     }
     return firstEven;
   } 
+
+  // Alternative Solution
+
+  function findOutlier(int) {
+    let evens = [];
+    let odds = [];
+    
+    int.forEach(function(num) {
+        num % 2 != 0 ? odds.push(num) : evens.push(num)
+    });
+    return odds.length > 1 ? evens[0] : odds[0];
+  }
