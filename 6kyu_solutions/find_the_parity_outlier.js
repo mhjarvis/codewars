@@ -21,4 +21,4 @@ function findOutlier(integers){
       return firstOdd;
     }
     return firstEven;
-  }
+  } 
