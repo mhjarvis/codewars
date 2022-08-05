@@ -1,0 +1,23 @@
+mhjarvis
+var countBits = function(n) {
+  let x = n;
+  let bit = 0;
+  let arr = []
+  let count = 0;
+  
+  if(n == 0) {
+    return 0;
+  }
+  
+  while(x > 0) {
+    bit = x % 2;
+    x = Math.floor(x / 2);
+    arr.push(bit);
+  }
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] == 1) {
+      count++;
+    }
+  }
+  return count;
+};
