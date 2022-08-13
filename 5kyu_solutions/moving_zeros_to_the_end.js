@@ -10,6 +10,5 @@ function moveZeros(arr) {
         newArr.push(arr[i]);
       }
     }
-    console.log(newArr); 
     return newArr;
   }
