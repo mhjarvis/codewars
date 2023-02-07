@@ -51,3 +51,18 @@ function factorial(n) {
 
 console.log('\nProblem 3:')
 console.log('The factorial of 5 is: ' + factorial(5));
+
+/* CHECK ALL VALUES IN AN ARRAY
+ * 
+ * Write a function called all whcih accepts an array and a callback and returns
+ * true if every value in the array returns true when passed as a parameter to
+ * the callback function.
+ * 
+ * Sample: 
+ * var allAreLessThanSeven = all([1, 2, 8], function(num) {
+ *    return num < 7;
+ * });
+ * 
+ * console.log(allAreLessThanSeven); // false
+ */
+
