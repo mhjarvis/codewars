@@ -79,5 +79,4 @@ console.log('All are less than 7: ' + allAreLessThanSeven);
 
 
 
-
 // This needs to be reworded.
