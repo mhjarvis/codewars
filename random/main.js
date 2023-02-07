@@ -34,3 +34,13 @@ function power(x, y) {
 
 console.log('Problem 2:');
 console.log('The power of 3 to the 4th power is: ' + power(3, 4));
+
+/* CALCULATE FACTORIAL
+ * 
+ * Write a function that returns the factorial of a number. A factorial of a number
+ * is the result of that number multiplied by the number before it, and the 
+ * number before that number, and so on, until you reach 1. The factorial of 1 is 1.
+ * 
+ * Sample: factorial(5); // 5 * 4 * 3 * 2 * 1 == 120
+ */
+
