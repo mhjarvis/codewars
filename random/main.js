@@ -32,7 +32,7 @@ function power(x, y) {
   return x * power(x, y - 1);
 }
 
-console.log('Problem 2:');
+console.log('\nProblem 2:');
 console.log('The power of 3 to the 4th power is: ' + power(3, 4));
 
 /* CALCULATE FACTORIAL
@@ -44,3 +44,9 @@ console.log('The power of 3 to the 4th power is: ' + power(3, 4));
  * Sample: factorial(5); // 5 * 4 * 3 * 2 * 1 == 120
  */
 
+function factorial(n) { 
+  
+}
+
+console.log('\nProblem 3:')
+console.log('The factorial of 5 is: ' + factorial(5));
