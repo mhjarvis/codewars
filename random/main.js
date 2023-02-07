@@ -46,6 +46,7 @@ console.log('The power of 3 to the 4th power is: ' + power(3, 4));
 
 function factorial(n) { 
   if(n == 1) return 1;
+  return n * factorial(n - 1);
 }
 
 console.log('\nProblem 3:')
