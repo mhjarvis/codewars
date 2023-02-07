@@ -66,3 +66,16 @@ console.log('The factorial of 5 is: ' + factorial(5));
  * console.log(allAreLessThanSeven); // false
  */
 
+let allAreLessThanSeven = all([1,2,9], function(num) {
+	return num < 7;
+});
+
+function all(arr, test) {
+  return false;
+}
+
+console.log('\nProblem 4:');
+console.log('All are less than 7: ' + allAreLessThanSeven);
+
+
+// This needs to be reworded.
