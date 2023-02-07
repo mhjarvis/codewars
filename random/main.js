@@ -28,12 +28,8 @@ console.log('The sum of the range of numbers for 8 is ' + sumRange(8));
 
 function power(x, y) {
   
-  if(y == 0) {
-    return 1;
-  }
-
-  return x + x + power(x, y - 1);
-
+  if(y == 0) return 1;
+  return x * power(x, y - 1);
 }
 
 console.log('Problem 2:');
