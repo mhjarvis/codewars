@@ -102,7 +102,9 @@ console.log('All are less than 7: ' + allAreLessThanSeven);
 
 function productOfArray(arr) {
 
+  if(arr.length === 1) return arr[0];
 
+  return arr.shift() * productOfArray(arr);
 }
 
 console.log('\nProblem 5: ');
