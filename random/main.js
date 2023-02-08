@@ -1,3 +1,9 @@
+/* THE FOLLOWING SOLUTIONS ARE TO RECURSIVE PROBLEMS FOUND AT: 
+ *
+ * https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion
+ */
+
+
 /* SUM ALL NUMBERS
  * 
  * Write a function called sumRange. It will take a number and return the sum of
