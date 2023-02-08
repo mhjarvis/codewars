@@ -94,3 +94,10 @@ console.log('All are less than 7: ' + allAreLessThanSeven);
  * Sample: let six = prouctOfArray([1, 2, 3]); // 6
  */
 
+function productOfArray(arr) {
+
+
+}
+
+console.log('\nProblem 5: ');
+console.log('Product of Array is ' + productOfArray([1, 2, 3, 10]));
