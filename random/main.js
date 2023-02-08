@@ -149,8 +149,15 @@ let nestedObject = {
 }
 
 function contains (obj, val) {
-
-  
+  for(key in obj) {
+    if(typeof obj[key] === 'object') {
+      return contains(obj[key], val);
+    }
+    if(obj[key] === val) {
+      return true;
+    }
+  }
+  return false;
 }
 
 console.log('\nProblem 6: ');
