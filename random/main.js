@@ -109,3 +109,27 @@ function productOfArray(arr) {
 
 console.log('\nProblem 5: ');
 console.log('Product of Array is ' + productOfArray([1, 2, 3, 10]));
+
+/* SEARCH JS OBJECT
+ * 
+ * Write a function called contains that searches for a value in a nested objet. It returns true if the object contains that value.
+ * 
+ * var nestedObject = {
+ *  data: {
+ *    info: {
+ *      stuff: {
+ *        thing: {
+ *          moreStuff: {
+ *            magicNumber: 44,
+ *              something: 'foo2'
+ *           }
+ *         }
+ *       }
+ *     }
+ *   }
+ * }
+ * let hasIt = contains(nestedObject, 44); // true
+ * let doesntHaveIt = contains(nestedObject, "foo"); // false
+ * 
+ */
+
