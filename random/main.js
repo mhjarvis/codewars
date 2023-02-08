@@ -133,3 +133,25 @@ console.log('Product of Array is ' + productOfArray([1, 2, 3, 10]));
  * 
  */
 
+let nestedObject = {
+  data: {
+      info: {
+          stuff: {
+              thing: {
+                  moreStuff: {
+                      magicNumber: 44,
+                      something: 'foo2'
+                  }
+              }
+          }
+      }
+  }
+}
+
+function contains (obj, val) {
+
+  
+}
+
+console.log('\nProblem 6: ');
+console.log('Value is contained in object: ' + contains(nestedObject, 'foo'));
