@@ -86,3 +86,11 @@ function all(arr, test) {
 console.log('\nProblem 4:');
 console.log('All are less than 7: ' + allAreLessThanSeven);
 
+/* PRODUCT OF AN ARRAY
+ *
+ * Write a funtion called productOfArray which takes in an array of numbers and
+ * returns the product of them all.
+ * 
+ * Sample: let six = prouctOfArray([1, 2, 3]); // 6
+ */
+
