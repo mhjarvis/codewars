@@ -162,3 +162,11 @@ function contains (obj, val) {
 
 console.log('\nProblem 6: ');
 console.log('Value is contained in object: ' + contains(nestedObject, 'foo'));
+
+/* PARSE A MULTI-DIMENSIONAL ARRAY
+ *
+ * Given  multi-dimensional integer array, rturn the totl number of integers stored inside this array.
+ * 
+ * Sample: let seven = totalIntegers([[[5], 3], 0, 2, ['foo'], [], [4, [5, 6]]]); // 7
+ */
+
