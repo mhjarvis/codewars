@@ -1,5 +1,7 @@
 /*
  * Break camelCase - 6kyu
+ *
+ */
  
 function solution(string) {
   if (!/[A-Z]/.test(string)) {  // return if there is no capital letter 
